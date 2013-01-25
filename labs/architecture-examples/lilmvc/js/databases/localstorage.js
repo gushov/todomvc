@@ -35,7 +35,7 @@
     var todosMap = todosStr ? JSON.parse(todosStr) : {};
     var todos = [];
 
-    _.eachIn(todosMap, function (title, completed) {
+    _.each(todosMap, function (title, completed) {
 
       var todo = {
         title: title,
